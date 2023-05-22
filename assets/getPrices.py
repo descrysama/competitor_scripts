@@ -96,17 +96,23 @@ zanphone = Zanphone()
 planetemobile = PlaneteMobile()
 
 def checkAllReferences() :
-
+    driver = initBrowser(True)
     ## Item fetch à partir de l'API (la meme que sur le site http://79.137.87.52:5000/sku/get)
     items = fetch_items()
+    count = 0
 
     sku_array = {}
     for index, item in enumerate(items) :
         print(index + 1, ' / ', len(items))
         for index_link, link in enumerate(item['urls']): 
+            if(count >= 10) :
+                driver.quit()
+                driver = initBrowser(True)
+                driver = 0
             print('Link', index + 1, ':', index_link ,'/ ', len(item['urls']))
             domain = urlparse(link['url']).netloc
             if domain in binding_array :
+                count += 1
                 result = globals()[binding_array[domain]].getData(link['url'], item['name'])
                 if result :
                     if str(result[0]).strip() in str(sku_array).strip() :
