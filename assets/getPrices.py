@@ -109,7 +109,7 @@ def checkAllReferences() :
                         print(type(driver))
                         driver.close()
                         count = 0
-                    print('Link', index + 1, ':', index_link ,'/ ', len(item['urls']))
+                    print('Link', index + 1, ':', index_link + 1 ,'/ ', len(item['urls']))
                     domain = urlparse(link['url']).netloc
                     if domain in binding_array :
                         count += 1
