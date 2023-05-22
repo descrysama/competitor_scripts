@@ -9,11 +9,10 @@ def fetchFinalOutput():
     if os.getenv('SCRIPT_ENV') == "DEV": 
         url = 'http://79.137.87.52/final_output.xlsx'
         response = requests.get(url)
+        with open('final_output.xlsx', 'wb') as f:
+            f.write(response.content)
     else :
         os.system('sudo scp -r /var/www/html/final_output.xlsx  /')
-
-    with open('final_output.xlsx', 'wb') as f:
-        f.write(response.content)
 
     # Read the Excel file using pandas
     df = pd.read_excel('final_output.xlsx', header=None)
