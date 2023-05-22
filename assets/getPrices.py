@@ -113,7 +113,7 @@ def checkAllReferences() :
             domain = urlparse(link['url']).netloc
             if domain in binding_array :
                 count += 1
-                result = globals()[binding_array[domain]].getData(link['url'], item['name'])
+                result = globals()[binding_array[domain]].getData(link['url'], item['name'], driver)
                 if result :
                     if str(result[0]).strip() in str(sku_array).strip() :
                         oldvalue = sku_array[result[0]]
