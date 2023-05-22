@@ -2,9 +2,8 @@ from selenium.webdriver.common.by import By
 from assets.webinit_ import initBrowser
 
 class toutPourPhone():
-    def __init__(self, driver):
+    def __init__(self):
       self.outputObject = []
-      driver = driver
     
     def getData(self, url, name, driver):
        
