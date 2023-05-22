@@ -103,27 +103,28 @@ def checkAllReferences() :
     sku_array = {}
     try:
         for index, item in enumerate(items) :
-                print(index + 1, ' / ', len(items))
-                for index_link, link in enumerate(item['urls']): 
-                    if(count >= 10) :
-                        print(type(driver))
-                        driver.quit()
-                        driver = initBrowser(True)
-                        count = 0
-                    print('Link', index + 1, ':', index_link + 1 ,'/ ', len(item['urls']))
-                    domain = urlparse(link['url']).netloc
-                    if domain in binding_array :
-                        count += 1
-                        result = globals()[binding_array[domain]].getData(link['url'], item['name'], driver)
-                        if result :
-                            if str(result[0]).strip() in str(sku_array).strip() :
-                                oldvalue = sku_array[result[0]]
-                                if oldvalue > result[1] : 
+                if index < 2:
+                    print(index + 1, ' / ', len(items))
+                    for index_link, link in enumerate(item['urls']): 
+                        if(count >= 10) :
+                            print(type(driver))
+                            driver.quit()
+                            driver = initBrowser(True)
+                            count = 0
+                        print('Link', index + 1, ':', index_link + 1 ,'/ ', len(item['urls']))
+                        domain = urlparse(link['url']).netloc
+                        if domain in binding_array :
+                            count += 1
+                            result = globals()[binding_array[domain]].getData(link['url'], item['name'], driver)
+                            if result :
+                                if str(result[0]).strip() in str(sku_array).strip() :
+                                    oldvalue = sku_array[result[0]]
+                                    if oldvalue > result[1] : 
+                                        sku_array[result[0]] = result[1]
+                                else :
                                     sku_array[result[0]] = result[1]
-                            else :
-                                sku_array[result[0]] = result[1]
-                    else :
-                        print("Ce domaine n'est pas dans la liste : ", domain)
+                        else :
+                            print("Ce domaine n'est pas dans la liste : ", domain)
     except Exception as e:
         print('The run has been canceled or crashed :', e)
     finally:
