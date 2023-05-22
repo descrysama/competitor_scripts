@@ -1,5 +1,6 @@
 from urllib.parse import urlparse
 from fetch_data import fetch_items
+from assets.webinit_ import initBrowser
 
 ## Classes des sites
 from classes.planetemobile import PlaneteMobile
@@ -64,35 +65,35 @@ binding_array = {
     'www.zanphone.com' : 'zanphone'
 }
 
-tout_pour_phone = toutPourPhone()
-gsm55 = Gsm55()
-brico_phone = BricoPhone()
-yodoit = Yodoit()
-macway = macWay()
-sosav = Sosav()
-lapommediscount = laPommeDiscount()
-all4iphone = All4iphone()
-best_price_market = Best_price_market()
-compo_phone = Compo_phone()
-cpix = Cpix()
-ebay = Ebay()
-ecrans_telephone = Ecrans_telephone()
-empetel = Empetel()
-global_stock = Global_stock()
-hightechplace = Hightechplace()
-ibuy = Ibuy()
-icasse = iCasse()
-kabiloo = Kabiloo()
-lcdstore = Lcdstore()
-mainhattan_mobile = Mainhattan_mobile()
-mobile24 = Mobile24()
-phonexpert78 = Phonexpert78()
-pieces2mobile = Pieces2mobile()
-piecetelephone = Piecetelephone()
-repar_smartphone = Repar_smartphone()
-world_itech = World_itech()
-zanphone = Zanphone()
-planetemobile = PlaneteMobile()
+tout_pour_phone = toutPourPhone(initBrowser(True))
+gsm55 = Gsm55(initBrowser(True))
+brico_phone = BricoPhone(initBrowser(True))
+yodoit = Yodoit(initBrowser(True))
+macway = macWay(initBrowser(True))
+sosav = Sosav(initBrowser(True))
+lapommediscount = laPommeDiscount(initBrowser(True))
+all4iphone = All4iphone(initBrowser(True))
+best_price_market = Best_price_market(initBrowser(True))
+compo_phone = Compo_phone(initBrowser(True))
+cpix = Cpix(initBrowser(True))
+ebay = Ebay(initBrowser(True))
+ecrans_telephone = Ecrans_telephone(initBrowser(True))
+empetel = Empetel(initBrowser(True))
+global_stock = Global_stock(initBrowser(True))
+hightechplace = Hightechplace(initBrowser(True))
+ibuy = Ibuy(initBrowser(True))
+icasse = iCasse(initBrowser(True))
+kabiloo = Kabiloo(initBrowser(True))
+lcdstore = Lcdstore(initBrowser(True))
+mainhattan_mobile = Mainhattan_mobile(initBrowser(True))
+mobile24 = Mobile24(initBrowser(True))
+phonexpert78 = Phonexpert78(initBrowser(True))
+pieces2mobile = Pieces2mobile(initBrowser(True))
+piecetelephone = Piecetelephone(initBrowser(True))
+repar_smartphone = Repar_smartphone(initBrowser(True))
+world_itech = World_itech(initBrowser(True))
+zanphone = Zanphone(initBrowser(True))
+planetemobile = PlaneteMobile(initBrowser(True))
 
 def checkAllReferences() :
 

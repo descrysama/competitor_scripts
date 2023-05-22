@@ -3,8 +3,9 @@ from selenium.webdriver.common.by import By
 from assets.webinit_ import initBrowser
 
 class Pieces2mobile():
-    def __init__(self):
+    def __init__(self, driver):
         self.outputObject = []
+        self.driver = driver
 
     def getData(self, url, name):
         try:

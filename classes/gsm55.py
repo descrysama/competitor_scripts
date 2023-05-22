@@ -10,11 +10,9 @@ class Gsm55():
     
     def getData(self, url, name):
       try:
-         driver = initBrowser(True)
-         driver.get(url)
-         self.loopOnWait(driver)
-         price = driver.find_element(By.XPATH, '//span[starts-with(@class, "productPrice-module__price")]').text.replace('€', '').replace(',', '.').strip()
-         driver.quit()
+         self.driver.get(url)
+         self.loopOnWait(self.driver)
+         price = self.driver.find_element(By.XPATH, '//span[starts-with(@class, "productPrice-module__price")]').text.replace('€', '').replace(',', '.').strip()
          return [name, float(price)]
       except:
          return

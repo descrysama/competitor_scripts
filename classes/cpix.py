@@ -5,14 +5,14 @@ from selenium.webdriver.common.by import By
 from assets.webinit_ import initBrowser
 
 class Cpix():
-    def __init__(self):
+    def __init__(self, driver):
         self.outputObject = []
+        self.driver = driver
 
     def getData(self, url, name):
         try:
-            driver = initBrowser(True)
-            driver.get(url)
-            price_html = driver.page_source
+            self.driver.get(url)
+            price_html = self.driver.page_source
             soup = BeautifulSoup(price_html, "html.parser")
             
             # getting the price detail div
@@ -22,7 +22,6 @@ class Cpix():
             # find the first price in this text
             match = re.search(r'\d+,\d+', price_degressifs_text)
             price = float(match.group().replace(",", "."))
-            driver.quit()
             return [name, price]
         except Exception as e:
             return print('Erreur :', e)

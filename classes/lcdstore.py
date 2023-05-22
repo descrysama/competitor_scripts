@@ -4,14 +4,14 @@ from bs4 import BeautifulSoup
 from assets.webinit_ import initBrowser
 
 class Lcdstore():
-    def __init__(self):
+    def __init__(self, driver):
         self.outputObject = []
+        self.driver = driver
 
     def getData(self, url, name):
         try:
-            driver = initBrowser(True)
-            driver.get(url)
-            html = driver.page_source
+            self.driver.get(url)
+            html = self.driver.page_source
             soup = BeautifulSoup(html, 'html.parser')
             
             # Extraction du prix avec le premier schéma
@@ -21,7 +21,6 @@ class Lcdstore():
                 if price_element_1:
                     price_text_1 = price_element_1.get_text(strip=True)
                     price_1 = float(price_text_1.replace(",", ".").replace("€", ""))
-                    driver.quit()
                     return [name, price_1]
             
             # Extraction du prix avec le deuxième schéma
@@ -33,7 +32,6 @@ class Lcdstore():
                 else:
                     price_text_2 = price_element_2.find('span', class_='woocommerce-Price-amount').get_text(strip=True)
                 price_2 = float(price_text_2.replace(",", ".").replace("€", ""))
-                driver.quit()
                 return [name, price_2]
         except Exception as e:
             return print('Erreur :', e)
