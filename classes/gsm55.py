@@ -4,9 +4,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from assets.webinit_ import initBrowser
 
 class Gsm55():
-    def __init__(self) :
-     self.outputObject = []
-
+    def __init__(self, driver) :
+      self.outputObject = []
+      self.driver = driver
     
     def getData(self, url, name):
       try:
