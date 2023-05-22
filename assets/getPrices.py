@@ -102,7 +102,6 @@ def checkAllReferences() :
     ## Item fetch à partir de l'API (la meme que sur le site http://79.137.87.52:5000/sku/get)
     items = fetch_items()
     count = 0
-
     sku_array = {}
     try:
         for index, item in enumerate(items) :
