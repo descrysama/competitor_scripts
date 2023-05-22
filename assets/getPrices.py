@@ -107,7 +107,7 @@ def checkAllReferences() :
                 for index_link, link in enumerate(item['urls']): 
                     if(count >= 10) :
                         print(type(driver))
-                        driver.close()
+                        driver.quit()
                         driver = initBrowser(True)
                         count = 0
                     print('Link', index + 1, ':', index_link + 1 ,'/ ', len(item['urls']))
@@ -126,4 +126,6 @@ def checkAllReferences() :
                         print("Ce domaine n'est pas dans la liste : ", domain)
     except Exception as e:
         print('The run has been canceled or crashed :', e)
+    finally:
+        driver.quit()
     return sku_array
