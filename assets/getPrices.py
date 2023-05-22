@@ -119,29 +119,28 @@ def checkAllReferences():
         driver = initBrowser(True)
         try:
             for index, item in enumerate(items):
-                if index < 2:
-                    print(index + 1, ' / ', len(items))
-                    for index_link, link in enumerate(item['urls']):
-                        if count >= 10:
-                            driver.quit()
-                            driver = initBrowser(True)
-                            count = 0
-                        print('Link', index + 1, ':', index_link + 1, '/ ', len(item['urls']))
-                        domain = urlparse(link['url']).netloc
-                        if domain in binding_array:
-                            count += 1
-                            result = globals()[binding_array[domain]].getData(link['url'], item['name'], driver)
-                            if result:
-                                sku, value = result
-                                with lock:  # Acquire lock before updating sku_array
-                                    if sku in sku_array:
-                                        old_value = sku_array[sku]
-                                        if old_value > value:
-                                            sku_array[sku] = value
-                                    else:
+                print(index + 1, ' / ', len(items))
+                for index_link, link in enumerate(item['urls']):
+                    if count >= 10:
+                        driver.quit()
+                        driver = initBrowser(True)
+                        count = 0
+                    print('Link', index + 1, ':', index_link + 1, '/ ', len(item['urls']))
+                    domain = urlparse(link['url']).netloc
+                    if domain in binding_array:
+                        count += 1
+                        result = globals()[binding_array[domain]].getData(link['url'], item['name'], driver)
+                        if result:
+                            sku, value = result
+                            with lock:  # Acquire lock before updating sku_array
+                                if sku in sku_array:
+                                    old_value = sku_array[sku]
+                                    if old_value > value:
                                         sku_array[sku] = value
-                        else:
-                            print("Ce domaine n'est pas dans la liste :", domain)
+                                else:
+                                    sku_array[sku] = value
+                    else:
+                        print("Ce domaine n'est pas dans la liste :", domain)
             return array
         except Exception as e:
             print('The run has been canceled or crashed :', e)
