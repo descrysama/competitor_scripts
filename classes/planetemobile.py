@@ -4,14 +4,13 @@ from selenium.common.exceptions import NoSuchElementException
 from assets.webinit_ import initBrowser
 
 class PlaneteMobile():
-    def __init__(self, driver):
+    def __init__(self):
         self.outputObject = []
-        self.driver = driver
 
-    def getData(self, url, name):
+    def getData(self, url, name, driver):
         try:
-            self.driver.get(url)
-            price_element = self.driver.find_element(By.XPATH, '//div[@class="detail_produit__price"]/span[@class="detail_produit__price__final"]')
+            driver.get(url)
+            price_element = driver.find_element(By.XPATH, '//div[@class="detail_produit__price"]/span[@class="detail_produit__price__final"]')
             price = price_element.text.replace('€', '').replace(',', '.').replace('\xa0', '')  # \xa0 is a non-breaking space
             return [name, float(price)]
         except Exception as e:

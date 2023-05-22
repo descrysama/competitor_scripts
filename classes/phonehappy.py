@@ -3,15 +3,14 @@ from selenium.webdriver.common.by import By
 from assets.webinit_ import initBrowser
 
 class Phonehappy():
-    def __init__(self, driver):
+    def __init__(self):
         self.outputObject = []
-        self.driver = driver
 
-    def getData(self, url, name):
+    def getData(self, url, name, driver):
         try:
-            self.driver.get(url)
-            price_main = self.driver.find_element(By.XPATH, '//span[@id="ajaxPriceTTC"]/span[not(@class)]').text
-            price_cents = self.driver.find_element(By.XPATH, '//span[@id="ajaxPriceTTC"]/span[@class="cents"]').text
+            driver.get(url)
+            price_main = driver.find_element(By.XPATH, '//span[@id="ajaxPriceTTC"]/span[not(@class)]').text
+            price_cents = driver.find_element(By.XPATH, '//span[@id="ajaxPriceTTC"]/span[@class="cents"]').text
             price = f"{price_main}{price_cents}"  # Concatenation of the main price and cents
             return [name, float(price)]
         except Exception as e:

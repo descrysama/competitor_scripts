@@ -4,15 +4,14 @@ from selenium.webdriver.common.by import By
 from assets.webinit_ import initBrowser
 
 class Zanphone():
-    def __init__(self, driver):
+    def __init__(self):
         self.outputObject = []
-        self.driver = driver
 
-    def getData(self, url, name):
+    def getData(self, url, name, driver):
         try:
-            self.driver.get(url)
+            driver.get(url)
             # Extraire le contenu du script JSON
-            json_script = self.driver.find_element(By.XPATH, '//script[@type="application/ld+json" and @class="rank-math-schema"]').get_attribute('innerHTML')
+            json_script = driver.find_element(By.XPATH, '//script[@type="application/ld+json" and @class="rank-math-schema"]').get_attribute('innerHTML')
             # Parser le contenu JSON
             data = json.loads(json_script)
             # Extraire le prix

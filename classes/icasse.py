@@ -2,14 +2,13 @@ from selenium.webdriver.common.by import By
 from assets.webinit_ import initBrowser
 
 class iCasse:
-    def __init__(self, driver):
+    def __init__(self):
         self.outputObject = []
-        self.driver = driver
 
-    def getData(self, url, name):
+    def getData(self, url, name, driver):
         try:
-            self.driver.get(url)
-            price = self.driver.find_element(By.XPATH, '//span[@id="our_price_display"]').text.replace('€', '').strip()
+            driver.get(url)
+            price = driver.find_element(By.XPATH, '//span[@id="our_price_display"]').text.replace('€', '').strip()
             price = price.replace('.', '') # new line of code
             return [name, float(price)]
         except Exception as e:

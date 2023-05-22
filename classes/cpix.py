@@ -5,14 +5,13 @@ from selenium.webdriver.common.by import By
 from assets.webinit_ import initBrowser
 
 class Cpix():
-    def __init__(self, driver):
+    def __init__(self):
         self.outputObject = []
-        self.driver = driver
 
-    def getData(self, url, name):
+    def getData(self, url, name, driver):
         try:
-            self.driver.get(url)
-            price_html = self.driver.page_source
+            driver.get(url)
+            price_html = driver.page_source
             soup = BeautifulSoup(price_html, "html.parser")
             
             # getting the price detail div

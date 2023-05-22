@@ -2,14 +2,13 @@ from selenium.webdriver.common.by import By
 from assets.webinit_ import initBrowser
 
 class Repar_smartphone():
-    def __init__(self, driver):
+    def __init__(self):
         self.outputObject = []
-        self.driver = driver
 
-    def getData(self, url, name):
+    def getData(self, url, name, driver):
         try:
-            self.driver.get(url)
-            price_element = self.driver.find_element(By.XPATH, '//span[@class="woocommerce-Price-amount amount"]/bdi')
+            driver.get(url)
+            price_element = driver.find_element(By.XPATH, '//span[@class="woocommerce-Price-amount amount"]/bdi')
             price = price_element.text.replace('€', '').replace(',', '.').strip()
             return [name, float(price)]
         except Exception as e:
