@@ -108,6 +108,7 @@ def checkAllReferences() :
                     if(count >= 10) :
                         print(type(driver))
                         driver.close()
+                        driver = initBrowser(True)
                         count = 0
                     print('Link', index + 1, ':', index_link + 1 ,'/ ', len(item['urls']))
                     domain = urlparse(link['url']).netloc
