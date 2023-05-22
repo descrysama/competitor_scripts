@@ -32,6 +32,7 @@ from classes.piecetelephone import Piecetelephone
 from classes.repar_smartphone import Repar_smartphone
 from classes.world_itech import World_itech
 from classes.zanphone import Zanphone
+from assets.edit_final_output import editFinalOutput
 
 binding_array = {
     'www.tout-pour-phone.com': 'tout_pour_phone',
@@ -123,4 +124,5 @@ def checkAllReferences() :
                         sku_array[result[0]] = result[1]
             else :
                 print("Ce domaine n'est pas dans la liste : ", domain)
+        editFinalOutput(sku_array)
     return sku_array
