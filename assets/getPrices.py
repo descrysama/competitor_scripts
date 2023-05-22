@@ -133,7 +133,7 @@ def checkAllReferences():
                         if result:
                             sku, value = result
                             with lock:  # Acquire lock before updating sku_array
-                                if sku in sku_array:
+                                if str(sku).strip() in sku_array:
                                     old_value = sku_array[sku]
                                     if old_value > value:
                                         sku_array[sku] = value
