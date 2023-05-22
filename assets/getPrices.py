@@ -1,6 +1,9 @@
 from urllib.parse import urlparse
 from fetch_data import fetch_items
 from assets.webinit_ import initBrowser
+import numpy as np
+import threading
+from urllib.parse import urlparse
 
 ## Classes des sites
 from classes.planetemobile import PlaneteMobile
@@ -96,36 +99,63 @@ world_itech = World_itech()
 zanphone = Zanphone()
 planetemobile = PlaneteMobile()
 
-def checkAllReferences() :
-    driver = initBrowser(True)
+def checkAllReferences():
     items = fetch_items()
-    count = 0
+
+    thread = 8
+    threads = []
+    chunks = np.array_split(items, thread)
+    if len(items) % thread != 0:
+        last_chunk = chunks[-1]
+        remaining_items = items[-(len(items) % thread):]
+        last_chunk.extend(remaining_items)
+
     sku_array = {}
-    try:
-        for index, item in enumerate(items) :
+    lock = threading.Lock()  # Create a lock for thread-safe updating
+
+    def checkOnWebsites(items):
+        array = {}
+        count = 0
+        driver = initBrowser(True)
+        try:
+            for index, item in enumerate(items):
                 if index < 2:
                     print(index + 1, ' / ', len(items))
-                    for index_link, link in enumerate(item['urls']): 
-                        if(count >= 10) :
+                    for index_link, link in enumerate(item['urls']):
+                        if count >= 10:
                             driver.quit()
                             driver = initBrowser(True)
                             count = 0
-                        print('Link', index + 1, ':', index_link + 1 ,'/ ', len(item['urls']))
+                        print('Link', index + 1, ':', index_link + 1, '/ ', len(item['urls']))
                         domain = urlparse(link['url']).netloc
-                        if domain in binding_array :
+                        if domain in binding_array:
                             count += 1
                             result = globals()[binding_array[domain]].getData(link['url'], item['name'], driver)
-                            if result :
-                                if str(result[0]).strip() in str(sku_array).strip() :
-                                    oldvalue = sku_array[result[0]]
-                                    if oldvalue > result[1] : 
-                                        sku_array[result[0]] = result[1]
-                                else :
-                                    sku_array[result[0]] = result[1]
-                        else :
-                            print("Ce domaine n'est pas dans la liste : ", domain)
-    except Exception as e:
-        print('The run has been canceled or crashed :', e)
-    finally:
-        driver.quit()
+                            if result:
+                                sku, value = result
+                                with lock:  # Acquire lock before updating sku_array
+                                    if sku in sku_array:
+                                        old_value = sku_array[sku]
+                                        if old_value > value:
+                                            sku_array[sku] = value
+                                    else:
+                                        sku_array[sku] = value
+                        else:
+                            print("Ce domaine n'est pas dans la liste :", domain)
+            return array
+        except Exception as e:
+            print('The run has been canceled or crashed :', e)
+        finally:
+            driver.quit()
+
+    # Create and start a thread for each chunk
+    for chunk in chunks:
+        thread = threading.Thread(target=checkOnWebsites, args=(chunk,))
+        thread.start()
+        threads.append(thread)
+
+    # Wait for all threads to complete
+    for thread in threads:
+        thread.join()
+
     return sku_array
