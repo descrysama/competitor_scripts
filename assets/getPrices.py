@@ -107,7 +107,6 @@ def checkAllReferences() :
                     print(index + 1, ' / ', len(items))
                     for index_link, link in enumerate(item['urls']): 
                         if(count >= 10) :
-                            print(type(driver))
                             driver.quit()
                             driver = initBrowser(True)
                             count = 0

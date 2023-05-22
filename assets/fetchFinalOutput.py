@@ -15,7 +15,7 @@ def fetchFinalOutput():
         os.system('sudo scp -r /var/www/html/final_output.xlsx  /')
 
     # Read the Excel file using pandas
-    df = pd.read_excel('final_output.xlsx', header=None)
+    df = pd.read_excel('final_output.xlsx', header=None, engine='openpyxl')
 
     # Convert DataFrame to dictionary with desired format
     key_value_dict = df.set_index(0)[1].to_dict()
