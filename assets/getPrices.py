@@ -98,6 +98,7 @@ planetemobile = PlaneteMobile()
 
 def checkAllReferences() :
     driver = initBrowser(True)
+    print(type(driver))
     ## Item fetch à partir de l'API (la meme que sur le site http://79.137.87.52:5000/sku/get)
     items = fetch_items()
     count = 0
@@ -107,6 +108,7 @@ def checkAllReferences() :
         print(index + 1, ' / ', len(items))
         for index_link, link in enumerate(item['urls']): 
             if(count >= 10) :
+                print(type(driver))
                 driver.quit()
                 driver = initBrowser(True)
                 count = 0
