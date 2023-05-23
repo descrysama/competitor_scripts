@@ -4438,3 +4438,481 @@ JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejec
 JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
 JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
 JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684867125391	geckodriver	INFO	Listening on 127.0.0.1:51890
+1684867128431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "518 ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Spaso\\AppData\\Local\\Temp\\rust_mozprofileCazhVV"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684867128624	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684867128626	Marionette	INFO	Listening on port 51900
+Read port: 51900
+WebDriver BiDi listening on ws://127.0.0.1:51891
+1684867128683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51891/devtools/browser/d422ae95-2703-4574-8161-039ad34809a2
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 3 failed.
+(error: https://sdk.beeketing.com/js/beeketing.3.f475d5839949f0aad803.js)
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 149 failed.
+(error: https://sdk.beeketing.com/js/beeketing.149.75b4d91d424f0a1c5031.js)
+ the environment
+1684867136551	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684867136554	Marionette	INFO	Listening on port 51959
+WebDriver BiDi listening on ws://127.0.0.1:51941
+Read port: 51959
+1684867136667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51941/devtools/browser/df2bf17b-d111-442e-b725-1d28d404ecaa
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+1684868074178	geckodriver	INFO	Listening on 127.0.0.1:53245
+1684868077239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "532 ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Spaso\\AppData\\Local\\Temp\\rust_mozprofilezZlS2l"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684868077411	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684868077413	Marionette	INFO	Listening on port 53255
+WebDriver BiDi listening on ws://127.0.0.1:53246
+Read port: 53255
+1684868077526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53246/devtools/browser/a7521237-4f3a-4909-a6c2-ade63a5ea65c
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: https://www.gsm55.com/ref/40264-nappe-qi-volume.html, line 43: ChunkLoadError: Loading chunk 6869 failed.
+(error: https://skin2.gsm55.com/prod/73/build/js/6869.0b35bbf6c1dec4cb13e4.js)
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+ort 53280
+Read port: 53280
+WebDriver BiDi listening on ws://127.0.0.1:53265
+1684868081471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53265/devtools/browser/73cd3021-3792-4154-84ed-be40efbae2ab
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 2 failed.
+(error: https://sdk.beeketing.com/js/beeketing.2.3aab4f57ef969e00a765.js)
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53293/devtools/browser/929f96d1-6e78-45fe-96c8-384f3d9aedde
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+1684868800284	geckodriver	INFO	Listening on 127.0.0.1:53998
+1684868803338	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "539 ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Spaso\\AppData\\Local\\Temp\\rust_mozprofileQ2M7WQ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684868803513	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684868803516	Marionette	INFO	Listening on port 54008
+WebDriver BiDi listening on ws://127.0.0.1:53999
+Read port: 54008
+1684868803630	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53999/devtools/browser/a5c0629f-19df-4a79-a82e-0fe8a269ae6c
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684868844637	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684868844637	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684868844637	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684868844637	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+rn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684868811616	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684868811619	Marionette	INFO	Listening on port 54069
+WebDriver BiDi listening on ws://127.0.0.1:54050
+Read port: 54069
+1684868811812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54050/devtools/browser/8a532771-6204-4334-93cf-790218132d9b
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+1684869059445	geckodriver	INFO	Listening on 127.0.0.1:54714
+1684869062477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "547 ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Spaso\\AppData\\Local\\Temp\\rust_mozprofileZ7WrpY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684869062655	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684869062658	Marionette	INFO	Listening on port 54724
+Read port: 54724
+WebDriver BiDi listening on ws://127.0.0.1:54715
+1684869062725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54715/devtools/browser/d8f9aec5-ccd9-42c1-b3e6-90a5a873bff2
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , lJavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferJavaScript error: , line 0: NetworkError:JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=JavaScript error: , line 0: NetworkError: FetchEvent.respondWJavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+ejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684870306847	geckodriver	INFO	Listening on 127.0.0.1:55771
+1684870309899	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "557 ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Spaso\\AppData\\Local\\Temp\\rust_mozprofileMqZpuB"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684870310077	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684870310079	Marionette	INFO	Listening on port 55781
+Read port: 55781
+WebDriver BiDi listening on ws://127.0.0.1:55772
+1684870310147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55772/devtools/browser/22268480-3764-47dc-ac00-5319aaaf8c33
+JavaScript error: https://www.gsm55.com/ref/59089-connecteur-de-charge-lightning-blanc.html, line 43: ChunkLoadError: Loading chunk 2795 failed.
+(error: https://skin2.gsm55.com/prod/73/build/js/2795.99cf03b4ce5d50cfd1f8.js)
+JavaScript error: https://www.gsm55.com/ref/59096-connecteur-de-charge-lightning-violet.html, line 43: ChunkLoadError: Loading chunk 9455 failed.
+(error: https://skin2.gsm55.com/prod/73/build/js/headerDesktop.629f4e2ad2aad79fd928.js)
+e settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684870314118	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684870314121	Marionette	INFO	Listening on port 55808
+Read port: 55808
+WebDriver BiDi listening on ws://127.0.0.1:55791
+1684870314189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55791/devtools/browser/d40e9f1f-d5b0-49bf-8379-7817ffcc9f89
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+" "--remote-debugging-port" "558 ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Spaso\\AppData\\Local\\Temp\\rust_mozprofilejZPkG2"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684870318108	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684870318110	Marionette	INFO	Listening on port 55836
+WebDriver BiDi listening on ws://127.0.0.1:55822
+Read port: 55836
+1684870318225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55822/devtools/browser/4711c773-bd69-4d90-a68e-18f002806975
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+1684870635973	geckodriver	INFO	Listening on 127.0.0.1:56731
+1684870639009	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "567 ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Spaso\\AppData\\Local\\Temp\\rust_mozprofileV25ErK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684870639194	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684870639196	Marionette	INFO	Listening on port 56741
+Read port: 56741
+WebDriver BiDi listening on ws://127.0.0.1:56732
+1684870639256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56732/devtools/browser/5fa2359e-6743-459f-a4f9-f0535f97a08d
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 131 failed.
+(error: https://sdk.beeketing.com/js/beeketing.131.849372d45e7048adcda7.js)
+ent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684873556703	geckodriver	INFO	Listening on 127.0.0.1:59661
+1684873559730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "596 ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tsuki\\AppData\\Local\\Temp\\rust_mozprofileIudtkg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684873560004	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684873560007	Marionette	INFO	Listening on port 59674
+WebDriver BiDi listening on ws://127.0.0.1:59662
+Read port: 59674
+1684873560163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59662/devtools/browser/7d68e694-1cc3-49f5-b500-3a88e25f8d39
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+ionette" "--headless" "--remote-debugging-port" "596 ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tsuki\\AppData\\Local\\Temp\\rust_mozprofileSrL8NT"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684873564462	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684873564465	Marionette	INFO	Listening on port 59710
+Read port: 59710
+WebDriver BiDi listening on ws://127.0.0.1:59684
+1684873564570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59684/devtools/browser/e30af085-e988-418f-89f0-b898b0220666
+1684873565433	geckodriver	INFO	Listening on 127.0.0.1:59721
+1684873568506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "597 ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tsuki\\AppData\\Local\\Temp\\rust_mozprofileO4J8MF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684873568840	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684873568843	Marionette	INFO	Listening on port 59746
+WebDriver BiDi listening on ws://127.0.0.1:59722
+Read port: 59746
+1684873569040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59722/devtools/browser/d428812f-0c50-4cb8-bd76-460c2b2d8cfb
+1684873921446	geckodriver	INFO	Listening on 127.0.0.1:60529
+1684873924503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "605 ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tsuki\\AppData\\Local\\Temp\\rust_mozprofilermeWLe"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684873924759	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684873924763	Marionette	INFO	Listening on port 60540
+WebDriver BiDi listening on ws://127.0.0.1:60530
+Read port: 60540
+1684873924956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60530/devtools/browser/7137ddbb-2841-4f8e-b331-47fd5ae94da6
+1684873925929	geckodriver	INFO	Listening on 127.0.0.1:60552
+1684873928997	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "605 ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tsuki\\AppData\\Local\\Temp\\rust_mozprofiletCtJga"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684873929289	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684873929293	Marionette	INFO	Listening on port 60577
+Read port: 60577
+WebDriver BiDi listening on ws://127.0.0.1:60553
+1684873929374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60553/devtools/browser/bfb22f2f-9150-447e-b704-9c4760cd8b02
+1684873930270	geckodriver	INFO	Listening on 127.0.0.1:60586
+1684873933332	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "605 ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tsuki\\AppData\\Local\\Temp\\rust_mozprofile1Ef4nZ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684873933577	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684873933581	Marionette	INFO	Listening on port 60612
+WebDriver BiDi listening on ws://127.0.0.1:60587
+Read port: 60612
+1684873933779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60587/devtools/browser/7f14f256-da15-4da3-997b-4234cba5d1bf
+1684874310064	geckodriver	INFO	Listening on 127.0.0.1:61978
+1684874313147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "619 ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tsuki\\AppData\\Local\\Temp\\rust_mozprofilexFHNcN"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684874313378	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684874313382	Marionette	INFO	Listening on port 61988
+WebDriver BiDi listening on ws://127.0.0.1:61979
+Read port: 61988
+1684874313565	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61979/devtools/browser/c1768712-e61a-4fbf-8920-5a161f18e2e7
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NeJavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: uncaught exception: null
+ line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684874355549	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684874355550	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684874355550	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684874355552	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684874476171	geckodriver	INFO	Listening on 127.0.0.1:62834
+1684874479228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "628 ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tsuki\\AppData\\Local\\Temp\\rust_mozprofileDgLFei"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684874479498	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684874479501	Marionette	INFO	Listening on port 62845
+WebDriver BiDi listening on ws://127.0.0.1:62835
+Read port: 62845
+1684874479681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62835/devtools/browser/6fb83f15-eb4b-4170-9339-a54f94cdbd00
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+gs: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684874483765	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684874483769	Marionette	INFO	Listening on port 62881
+WebDriver BiDi listening on ws://127.0.0.1:62856
+Read port: 62881
+1684874483933	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62856/devtools/browser/6b5f41e3-9f92-45d2-996f-be4d809d0b51
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684874488042	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684874488045	Marionette	INFO	Listening on port 62916
+WebDriver BiDi listening on ws://127.0.0.1:62891
+Read port: 62916
+1684874488260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62891/devtools/browser/35246989-f6f1-428b-98ca-270f2111685d
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.

@@ -3,7 +3,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-
 def fetchFinalOutput(): 
     array_to_return = []
     xlsx_file_path = os.getenv('EDITFILE_PATH')

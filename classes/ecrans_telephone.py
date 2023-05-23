@@ -12,6 +12,7 @@ class Ecrans_telephone():
             soup = BeautifulSoup(html_content, "html.parser")
             price_element = soup.select_one('span[id="pretaxe_price_display"]')
             price = float(price_element.get("content").strip()) * 1.2
-            return [str(name).strip(), float(price)]
+            rounded_price = round(price, 2)  # Arrondir à deux décimales
+            return [str(name).strip(), rounded_price]
         except Exception as e:
             return print('Erreur :', e)

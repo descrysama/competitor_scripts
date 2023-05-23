@@ -98,17 +98,11 @@ def checkAllReferences():
     sku_array = []
 
     try:
-        # Split items into 8 parts
-        chunk_size = len(items) // 6
-        item_chunks = [
-            items[i : i + chunk_size] for i in range(0, len(items), chunk_size)
-        ]
-
-        with ThreadPoolExecutor() as executor:
-            # Process each item chunk concurrently
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            # Process each item concurrently
             futures = []
-            for chunk in item_chunks:
-                future = executor.submit(process_chunk, chunk)
+            for item in items:
+                future = executor.submit(process_chunk, item)
                 futures.append(future)
 
             # Wait for all threads to complete
@@ -123,26 +117,22 @@ def checkAllReferences():
     return sku_array
 
 
-def process_chunk(chunk):
+def process_chunk(item):
     sku_array = {}
-    for index, item in enumerate(chunk[::-1]):
-        if index < 4:
-            print(index + 1, "/", len(chunk))
-            for index_link, link in enumerate(item["urls"]):
-                print("Link", index + 1, ":", index_link, "/", len(item["urls"]))
-                domain = urlparse(link["url"]).netloc
-                if domain in binding_array:
-                    result = globals()[binding_array[domain]].getData(
-                        link["url"], item["name"]
-                    )
-                    if result:
-                        sku = str(result[0]).strip()
-                        if sku in sku_array:
-                            old_value = sku_array[sku]
-                            if old_value > result[1]:
-                                sku_array[sku] = result[1]
-                        else:
-                            sku_array[sku] = result[1]
+    print("Processing item:", item["name"])
+    for index_link, link in enumerate(item["urls"]):
+        print("Link", index_link + 1, "of", len(item["urls"]))
+        domain = urlparse(link["url"]).netloc
+        if domain in binding_array:
+            result = globals()[binding_array[domain]].getData(
+                link["url"], item["name"]
+            )
+            if result:
+                sku = str(result[0]).strip()
+                if sku in sku_array:
+                    old_value = sku_array[sku]
+                    if old_value > result[1]:
+                        sku_array[sku] = result[1]
                 else:
-                    print("Ce domaine n'est pas dans la liste:", domain)
+                    sku_array[sku] = result[1]
     return sku_array
