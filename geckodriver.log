@@ -3254,3 +3254,17 @@ Read port: 64372
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 [ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
 DevTools listening on ws://127.0.0.1:64363/devtools/browser/8279fd30-bc48-4b29-a987-8329af2e07fb
+1684844204036	geckodriver	INFO	Listening on 127.0.0.1:49413
+1684844204553	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilergmVi9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684844205311	Marionette	INFO	Marionette enabled
+1684844205729	Marionette	INFO	Listening on port 49421
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 49421
+WebDriver BiDi listening on ws://127.0.0.1:49414
+1684844205912	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49414/devtools/browser/11091474-dd7a-4ba6-bc42-c13eb34b58a2

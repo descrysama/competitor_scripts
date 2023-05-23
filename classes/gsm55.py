@@ -18,8 +18,8 @@ class Gsm55():
          return
 
 
-    def loopOnWait(self, driver):
+    def loopOnWait(self):
         try: 
-           WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, '//span[starts-with(@class, "productPrice-module__price")]')))
+           WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located((By.XPATH, '//span[starts-with(@class, "productPrice-module__price")]')))
         except:
-           self.loopOnWait(driver)
+           self.loopOnWait(self.driver)

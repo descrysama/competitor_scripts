@@ -1,13 +1,15 @@
 from bs4 import BeautifulSoup
+from assets.webinit_ import initBrowser
 
 class Lcdstore():
     def __init__(self):
         self.outputObject = []
+        self.driver = initBrowser(True)
 
     def getData(self, url, name):
         try:
-            driver.get(url)
-            html = driver.page_source
+            self.driver.get(url)
+            html = self.driver.page_source
             soup = BeautifulSoup(html, 'html.parser')
             
             # Extraction du prix avec le premier schéma
