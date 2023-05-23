@@ -1,23 +1,18 @@
-import pandas as pd
-import requests
+import openpyxl
 import os
 from dotenv import load_dotenv
 load_dotenv()
 
 
 def fetchFinalOutput(): 
-    if os.getenv('SCRIPT_ENV') == "DEV": 
-        url = 'http://79.137.87.52/final_output.xlsx'
-        response = requests.get(url)
-        with open('final_output.xlsx', 'wb') as f:
-            f.write(response.content)
-    else :
-        os.system('sudo scp -r /var/www/html/final_output.xlsx  /')
+    array_to_return = []
+    xlsx_file_path = os.getenv('EDITFILE_PATH')
+    workbook = openpyxl.load_workbook(xlsx_file_path)
+    sheet = workbook.active
 
-    # Read the Excel file using pandas
-    df = pd.read_excel('final_output.xlsx', header=None, engine='openpyxl')
+    for row in sheet.iter_rows(values_only=True):
+        sku = row[0]  # Assuming SKU is in the first column
+        value = row[1]  # Assuming value is in the second column
+        array_to_return.append([sku, value])
 
-    # Convert DataFrame to dictionary with desired format
-    key_value_dict = df.set_index(0)[1].to_dict()
-
-    return key_value_dict
+    return array_to_return
