@@ -124,7 +124,7 @@ def checkAllReferences():
 def process_chunk(chunk):
     sku_array = {}
     for index, item in enumerate(chunk[::-1]):
-        if index < 2:
+        if index < 1:
             print(index + 1, "/", len(chunk))
             for index_link, link in enumerate(item["urls"]):
                 print("Link", index + 1, ":", index_link, "/", len(item["urls"]))
