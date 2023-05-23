@@ -1,9 +1,6 @@
 from urllib.parse import urlparse
 from fetch_data import fetch_items
 from assets.webinit_ import initBrowser
-import numpy as np
-import threading
-from urllib.parse import urlparse
 
 ## Classes des sites
 from classes.planetemobile import PlaneteMobile
@@ -27,18 +24,16 @@ from classes.ibuy import Ibuy
 from classes.icasse import iCasse
 from classes.kabiloo import Kabiloo
 from classes.lcdstore import Lcdstore
-from classes.mainhattan_mobile import Mainhattan_mobile
 from classes.mobile24 import Mobile24
 from classes.phonexpert78 import Phonexpert78
-from classes.pieces2mobile import Pieces2mobile
 from classes.piecetelephone import Piecetelephone
-from classes.repar_smartphone import Repar_smartphone
 from classes.world_itech import World_itech
 from classes.zanphone import Zanphone
-from assets.edit_final_output import editFinalOutput
+from classes.ifixit import Ifixit
 
 binding_array = {
     'www.tout-pour-phone.com': 'tout_pour_phone',
+    'store.ifixit.fr': 'ifixit',
     'www.gsm55.com': 'gsm55',
     'www.brico-phone.com': 'brico_phone',
     'www.yodoit.com': 'yodoit',
@@ -52,24 +47,23 @@ binding_array = {
     'www.ebay.fr': 'ebay',
     'ecrans-telephone.com' : 'ecrans_telephone',
     'www.empetel.net' : 'empetel',
-    'www.global-stock.fr' : 'global_stock',
+    'global-stock.fr' : 'global_stock',
     'www.hightechplace.com' : 'hightechplace',
     'ibuy.fr': 'ibuy',
+    'empetel.net': 'empetel',
     'icasse.fr': 'icasse',
     'www.kabiloo.fr': 'kabiloo',
     'lcdstore.fr': 'lcdstore',
-    'mainhattan-mobile.de': 'mainhattan_mobile',
     'www.mobile24.fr': 'mobile24',
     'www.phonexpert78.com' : 'phonexpert78',
-    'www.pieces2mobile.com' : 'pieces2mobile',
     'www.piecetelephone.fr' : 'piecetelephone',
     'www.planetemobile.fr': 'planetemobile',
-    'www.repar-smartphone.fr' : 'repar_smartphone',
     'www.world-itech.com': 'world_itech',
-    'www.zanphone.com' : 'zanphone'
+    'zanphone.com' : 'zanphone'
 }
 
 tout_pour_phone = toutPourPhone()
+ifixit = Ifixit()
 gsm55 = Gsm55()
 brico_phone = BricoPhone()
 yodoit = Yodoit()
@@ -89,72 +83,44 @@ ibuy = Ibuy()
 icasse = iCasse()
 kabiloo = Kabiloo()
 lcdstore = Lcdstore()
-mainhattan_mobile = Mainhattan_mobile()
 mobile24 = Mobile24()
 phonexpert78 = Phonexpert78()
-pieces2mobile = Pieces2mobile()
 piecetelephone = Piecetelephone()
-repar_smartphone = Repar_smartphone()
 world_itech = World_itech()
 zanphone = Zanphone()
 planetemobile = PlaneteMobile()
 
-def checkAllReferences():
+def checkAllReferences() :
+    driver = initBrowser(True)
+    print(type(driver))
+    ## Item fetch à partir de l'API (la meme que sur le site http://79.137.87.52:5000/sku/get)
     items = fetch_items()
-
-    thread = 8
-    threads = []
-    chunks = np.array_split(items, thread)
-    if len(items) % thread != 0:
-        last_chunk = chunks[-1]
-        remaining_items = items[-(len(items) % thread):]
-        last_chunk.extend(remaining_items)
-
+    count = 0
     sku_array = {}
-    lock = threading.Lock()  # Create a lock for thread-safe updating
-
-    def checkOnWebsites(items):
-        array = {}
-        count = 0
-        driver = initBrowser(True)
-        try:
-            for index, item in enumerate(items):
+    try:
+        for index, item in enumerate(items[::-1]) :
+            if index < 3:
                 print(index + 1, ' / ', len(items))
-                for index_link, link in enumerate(item['urls']):
-                    if count >= 10:
+                for index_link, link in enumerate(item['urls']): 
+                    if(count >= 10) :
+                        print(type(driver))
                         driver.quit()
                         driver = initBrowser(True)
                         count = 0
-                    print('Link', index + 1, ':', index_link + 1, '/ ', len(item['urls']))
+                    print('Link', index + 1, ':', index_link ,'/ ', len(item['urls']))
                     domain = urlparse(link['url']).netloc
-                    if domain in binding_array:
+                    if domain in binding_array :
                         count += 1
                         result = globals()[binding_array[domain]].getData(link['url'], item['name'], driver)
-                        if result:
-                            sku, value = result
-                            with lock:  # Acquire lock before updating sku_array
-                                if str(sku).strip() in sku_array:
-                                    old_value = sku_array[sku]
-                                    if old_value > value:
-                                        sku_array[sku] = value
-                                else:
-                                    sku_array[sku] = value
-                    else:
-                        print("Ce domaine n'est pas dans la liste :", domain)
-            return array
-        except Exception as e:
-            print('The run has been canceled or crashed :', e)
-        finally:
-            driver.quit()
-
-    # Create and start a thread for each chunk
-    for chunk in chunks:
-        thread = threading.Thread(target=checkOnWebsites, args=(chunk,))
-        thread.start()
-        threads.append(thread)
-
-    # Wait for all threads to complete
-    for thread in threads:
-        thread.join()
-
+                        if result :
+                            if str(result[0]).strip() in str(sku_array).strip() :
+                                oldvalue = sku_array[result[0]]
+                                if oldvalue > result[1] : 
+                                    sku_array[result[0]] = result[1]
+                            else :
+                                sku_array[result[0]] = result[1]
+                    else :
+                        print("Ce domaine n'est pas dans la liste : ", domain)
+    except Exception as e:
+        print('The run has been canceled or crashed :', e)
     return sku_array
