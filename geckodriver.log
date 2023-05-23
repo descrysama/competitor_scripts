@@ -3268,3 +3268,169 @@ WebDriver BiDi listening on ws://127.0.0.1:49414
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 [ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
 DevTools listening on ws://127.0.0.1:49414/devtools/browser/11091474-dd7a-4ba6-bc42-c13eb34b58a2
+1684844485969	geckodriver	INFO	Listening on 127.0.0.1:49589
+1684844486483	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileKyBMQD"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684844487265	Marionette	INFO	Marionette enabled
+1684844487673	Marionette	INFO	Listening on port 49595
+Read port: 49595
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49590
+1684844487890	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49590/devtools/browser/e0448a5e-7f6d-454a-a3a7-863b4fc51bdb
+1684844490263	geckodriver	INFO	Listening on 127.0.0.1:49603
+1684844490772	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileSmrFas"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684844491237	Marionette	INFO	Marionette enabled
+1684844491459	Marionette	INFO	Listening on port 49616
+Read port: 49616
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49604
+1684844491598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49604/devtools/browser/69c2cbf5-49b2-413e-bde0-195c926bd7cb
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 142 failed.
+(error: https://sdk.beeketing.com/js/beeketing.142.a5108606e31d364dbaf7.js)
+1684844589688	geckodriver	INFO	Listening on 127.0.0.1:49740
+1684844590200	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileAcNTFf"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684844590914	Marionette	INFO	Marionette enabled
+1684844591405	Marionette	INFO	Listening on port 49747
+Read port: 49747
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49741
+1684844591623	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49741/devtools/browser/301637fd-13a6-4768-b87f-137f9157729f
+1684844594413	geckodriver	INFO	Listening on 127.0.0.1:49755
+1684844594907	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofile1LbMPQ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684844595527	Marionette	INFO	Marionette enabled
+1684844595784	Marionette	INFO	Listening on port 49772
+Read port: 49772
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49756
+1684844595966	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49756/devtools/browser/e1a5bcad-8f05-45fe-9ec2-931b3fd9b336
+1684844598880	geckodriver	INFO	Listening on 127.0.0.1:49786
+1684844599382	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilezvFAgA"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684844601257	Marionette	INFO	Marionette enabled
+1684844601631	Marionette	INFO	Listening on port 49805
+Read port: 49805
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49787
+1684844601879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49787/devtools/browser/b08c8faf-f4d0-47e7-a693-1feafcd77c6e
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+1684844655099	geckodriver	INFO	Listening on 127.0.0.1:49947
+1684844655616	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileAOmhGH"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684844656369	Marionette	INFO	Marionette enabled
+1684844656832	Marionette	INFO	Listening on port 49955
+Read port: 49955
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49948
+1684844657010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49948/devtools/browser/c1cf695e-15b8-4ee5-a664-0983ef6e1ae0
+1684844659203	geckodriver	INFO	Listening on 127.0.0.1:49963
+1684844659704	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofiley6nwzA"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684844660165	Marionette	INFO	Marionette enabled
+1684844660402	Marionette	INFO	Listening on port 49981
+Read port: 49981
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49964
+1684844660662	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49964/devtools/browser/6076209f-65a3-4402-918c-35748f090b84
+1684844663065	geckodriver	INFO	Listening on 127.0.0.1:49992
+1684844663591	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofile3AkkFs"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684844664504	Marionette	INFO	Marionette enabled
+1684844664920	Marionette	INFO	Listening on port 50014
+Read port: 50014
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:49993
+1684844665339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49993/devtools/browser/3494b68b-7913-4acf-a8ea-a0f557b9eec3
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 4 failed.
+(error: https://sdk.beeketing.com/js/beeketing.4.67e85ab2118d84d145e1.js)
+1684845111404	geckodriver	INFO	Listening on 127.0.0.1:50231
+1684845111908	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofile8LR1S3"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684845112681	Marionette	INFO	Marionette enabled
+1684845113143	Marionette	INFO	Listening on port 50239
+Read port: 50239
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:50232
+1684845113465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50232/devtools/browser/e4c4b057-2d87-4583-9ccc-d3b8c596ddbb
+1684845116175	geckodriver	INFO	Listening on 127.0.0.1:50247
+1684845116677	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofile4lUCCw"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684845117337	Marionette	INFO	Marionette enabled
+1684845117649	Marionette	INFO	Listening on port 50267
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 50267
+WebDriver BiDi listening on ws://127.0.0.1:50248
+1684845117833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50248/devtools/browser/7b2e1f55-4308-41fd-8a0e-fd0d6a22797c
+1684845120492	geckodriver	INFO	Listening on 127.0.0.1:50275
+1684845120986	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileH41X53"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684845121647	Marionette	INFO	Marionette enabled
+1684845121961	Marionette	INFO	Listening on port 50295
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 50295
+WebDriver BiDi listening on ws://127.0.0.1:50276
+1684845122476	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50276/devtools/browser/d3416264-1631-4b6b-a137-1c567993a22c
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
