@@ -17,9 +17,9 @@ def editFinalOutput(final_checked_prices):
                 cell = sheet.cell(row=row_index, column=3)  # Update the third column (column C)
                 updateFile(value, cell, workbook, xlsx_file_path)
                 break
-
-
-def updateFile(value, cell, workbook, xlsx_file_path) :
-    cell.value = value
     workbook.save(xlsx_file_path)
+
+
+def updateFile(value, cell) :
+    cell.value = value
     return
