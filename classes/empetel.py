@@ -1,18 +1,17 @@
-from selenium.webdriver.common.by import By
-import html
-from assets.webinit_ import initBrowser
+import requests
+from bs4 import BeautifulSoup
 
 class Empetel():
     def __init__(self):
         self.outputObject = []
 
-    def getData(self, url, name, driver):
-        try:
-            driver.get(url)
-            price_element = driver.find_element(By.XPATH, '//span[@itemprop="price"]')
-            price_text = price_element.get_attribute("innerHTML")
-            price_text = html.unescape(price_text)  # Supprimer l'entité HTML
-            price = float(price_text.replace(",", ".").replace("€", "").replace("&nbsp;", "").strip())
-            return [name, price]
+    def getData(self, url, name):
+        try:       
+            response = requests.get(url)
+            html_content = response.content
+            soup = BeautifulSoup(html_content, "html.parser")
+            price_element = soup.select_one('span[itemprop="price"]')
+            price = price_element.get("content").strip()
+            return [str(name).strip(), float(price)]
         except Exception as e:
             return print('Erreur :', e)

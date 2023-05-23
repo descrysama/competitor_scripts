@@ -1,17 +1,17 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
-from assets.webinit_ import initBrowser
+import requests
+from bs4 import BeautifulSoup
 
 class PlaneteMobile():
     def __init__(self):
         self.outputObject = []
 
-    def getData(self, url, name, driver):
+    def getData(self, url, name):
         try:
-            driver.get(url)
-            price_element = driver.find_element(By.XPATH, '//div[@class="detail_produit__price"]/span[@class="detail_produit__price__final"]')
-            price = price_element.text.replace('€', '').replace(',', '.').replace('\xa0', '')  # \xa0 is a non-breaking space
-            return [name, float(price)]
+            response = requests.get(url)
+            html_content = response.content
+            soup = BeautifulSoup(html_content, "html.parser")
+            price_element = soup.select_one('span[class="detail_produit__price__final"]')
+            price = price_element.get_text().replace('€', '').replace(',', '.').strip()
+            return [str(name).strip(), float(price)]
         except Exception as e:
             return print('Erreur :', e)

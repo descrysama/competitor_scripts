@@ -1,15 +1,19 @@
-from selenium.webdriver.common.by import By
-from assets.webinit_ import initBrowser
+import requests
+from bs4 import BeautifulSoup
 
 class toutPourPhone():
     def __init__(self):
       self.outputObject = []
     
-    def getData(self, url, name, driver):
+    def getData(self, url, name):
+       
        try: 
-         driver.get(url)
-         price = driver.find_element(By.XPATH, '//span[@id="our_price_display"]').text.replace('€', '').replace(',', '.').strip()
-         return([name, float(price)])
+            response = requests.get(url)
+            html_content = response.content
+            soup = BeautifulSoup(html_content, "html.parser")
+            price_element = soup.select_one('span[id="our_price_display"]')
+            price = price_element.get_text().replace('€', '').replace(',', '.').strip()
+            return [str(name).strip(), float(price)]
        except:
           return
        

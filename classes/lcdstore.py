@@ -1,13 +1,10 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
-from assets.webinit_ import initBrowser
 
 class Lcdstore():
     def __init__(self):
         self.outputObject = []
 
-    def getData(self, url, name, driver):
+    def getData(self, url, name):
         try:
             driver.get(url)
             html = driver.page_source
@@ -32,20 +29,9 @@ class Lcdstore():
                     price_text_2 = price_element_2.find('span', class_='woocommerce-Price-amount').get_text(strip=True)
                 price_2 = float(price_text_2.replace(",", ".").replace("€", ""))
                 return [name, price_2]
+                
         except Exception as e:
             return print('Erreur :', e)
         
         # Si aucun schéma ne renvoie de prix, renvoyer None
         return None
-
-# Exemple d'utilisation
-def checkAll():
-    driver = webdriver.Chrome()  # Utilisez le pilote de votre choix
-    combined_example = Lcdstore()
-    data = combined_example.getData(driver, 'URL_DE_LA_PAGE', 'Nom du produit')
-    driver.quit()
-
-    if data is not None:
-        return data
-    else:
-        return "Aucun prix trouvé."

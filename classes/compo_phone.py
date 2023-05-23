@@ -1,17 +1,18 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from assets.webinit_ import initBrowser
+import requests
+from bs4 import BeautifulSoup
 
 class Compo_phone():
     def __init__(self):
         self.outputObject = []
 
-    def getData(self, url, name, driver):
-        try:
-            driver.get(url)
-            price_element = driver.find_element(By.XPATH, '//span[@class="price"]')
-            price = price_element.text.replace('€', '').replace(',', '.')
-            return [name, float(price)]
+    def getData(self, url, name):
+        try:      
+            response = requests.get(url)
+            html_content = response.content
+            soup = BeautifulSoup(html_content, "html.parser")
+            price_element = soup.select_one('span[class="price"]')
+            price = price_element.get_text(strip=True).replace('€', '').replace(',', '.').strip()
+            return [str(name).strip(), float(price)]
         except Exception as e:
             return print('Erreur :', e)
         

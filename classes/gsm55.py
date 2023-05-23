@@ -6,12 +6,13 @@ from assets.webinit_ import initBrowser
 class Gsm55():
     def __init__(self) :
       self.outputObject = []
+      self.driver = initBrowser(True)
     
-    def getData(self, url, name, driver):
+    def getData(self, url, name):
       try:
-         driver.get(url)
-         self.loopOnWait(driver)
-         price = driver.find_element(By.XPATH, '//span[starts-with(@class, "productPrice-module__price")]').text.replace('€', '').replace(',', '.').strip()
+         self.driver.get(url)
+         self.loopOnWait(self.driver)
+         price = self.driver.find_element(By.XPATH, '//span[starts-with(@class, "productPrice-module__price")]').text.replace('€', '').replace(',', '.').strip()
          return [name, float(price)]
       except:
          return

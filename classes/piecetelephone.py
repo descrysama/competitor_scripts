@@ -1,15 +1,17 @@
-from selenium.webdriver.common.by import By
-from assets.webinit_ import initBrowser
+import requests
+from bs4 import BeautifulSoup
 
 class Piecetelephone():
     def __init__(self):
         self.outputObject = []
 
-    def getData(self, url, name, driver):
+    def getData(self, url, name):
         try:
-            driver.get(url)
-            price_element = driver.find_element(By.XPATH, '//div[@class="product-price h5 "]/div[@class="current-price"]/span[@itemprop="price"]')
-            price = price_element.get_attribute("content")
-            return [name, float(price)]
+            response = requests.get(url)
+            html_content = response.content
+            soup = BeautifulSoup(html_content, "html.parser")
+            price_element = soup.find('div', class_='product-price').find('div', class_='current-price').find('span', itemprop='price')
+            price = price_element.get_text().replace('€', '').replace(',', '.').strip()
+            return [str(name).strip(), float(price)]
         except Exception as e:
             return print('Erreur :', e)

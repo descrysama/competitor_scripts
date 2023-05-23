@@ -7,7 +7,7 @@ class Zanphone():
     def __init__(self):
         self.outputObject = []
 
-    def getData(self, url, name, driver):
+    def getData(self, url, name):
         try:
             driver.get(url)
             # Extraire le contenu du script JSON
