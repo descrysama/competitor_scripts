@@ -124,22 +124,23 @@ def checkAllReferences():
 def process_chunk(chunk):
     sku_array = {}
     for index, item in enumerate(chunk[::-1]):
-        print(index + 1, "/", len(chunk))
-        for index_link, link in enumerate(item["urls"]):
-            print("Link", index + 1, ":", index_link, "/", len(item["urls"]))
-            domain = urlparse(link["url"]).netloc
-            if domain in binding_array:
-                result = globals()[binding_array[domain]].getData(
-                    link["url"], item["name"]
-                )
-                if result:
-                    sku = str(result[0]).strip()
-                    if sku in sku_array:
-                        old_value = sku_array[sku]
-                        if old_value > result[1]:
+        if index < 2 :
+            print(index + 1, "/", len(chunk))
+            for index_link, link in enumerate(item["urls"]):
+                print("Link", index + 1, ":", index_link, "/", len(item["urls"]))
+                domain = urlparse(link["url"]).netloc
+                if domain in binding_array:
+                    result = globals()[binding_array[domain]].getData(
+                        link["url"], item["name"]
+                    )
+                    if result:
+                        sku = str(result[0]).strip()
+                        if sku in sku_array:
+                            old_value = sku_array[sku]
+                            if old_value > result[1]:
+                                sku_array[sku] = result[1]
+                        else:
                             sku_array[sku] = result[1]
-                    else:
-                        sku_array[sku] = result[1]
-            else:
-                print("Ce domaine n'est pas dans la liste:", domain)
+                else:
+                    print("Ce domaine n'est pas dans la liste:", domain)
     return sku_array
