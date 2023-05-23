@@ -15,7 +15,7 @@ def editFinalOutput(final_checked_prices):
             print(str(row[0].value).strip(),' : ',str(key).strip())
             if str(row[0].value).strip() == str(key).strip():
                 cell = sheet.cell(row=row_index, column=3)  # Update the third column (column C)
-                updateFile(value, cell, workbook, xlsx_file_path)
+                updateFile(value, cell)
                 break
     workbook.save(xlsx_file_path)
 
