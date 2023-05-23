@@ -96,22 +96,21 @@ def checkAllReferences() :
     sku_array = {}
     try:
         for index, item in enumerate(items[::-1]) :
-            if index < 2:
-                print(index + 1, ' / ', len(items))
-                for index_link, link in enumerate(item['urls']): 
-                    print('Link', index + 1, ':', index_link ,'/ ', len(item['urls']))
-                    domain = urlparse(link['url']).netloc
-                    if domain in binding_array :
-                        result = globals()[binding_array[domain]].getData(link['url'], item['name'])
-                        if result :
-                            if str(result[0]).strip() in str(sku_array).strip() :
-                                oldvalue = sku_array[str(result[0]).strip()]
-                                if oldvalue > result[1] : 
-                                    sku_array[str(result[0]).strip()] = result[1]
-                            else :
+            print(index + 1, ' / ', len(items))
+            for index_link, link in enumerate(item['urls']): 
+                print('Link', index + 1, ':', index_link ,'/ ', len(item['urls']))
+                domain = urlparse(link['url']).netloc
+                if domain in binding_array :
+                    result = globals()[binding_array[domain]].getData(link['url'], item['name'])
+                    if result :
+                        if str(result[0]).strip() in str(sku_array).strip() :
+                            oldvalue = sku_array[str(result[0]).strip()]
+                            if oldvalue > result[1] : 
                                 sku_array[str(result[0]).strip()] = result[1]
-                    else :
-                        print("Ce domaine n'est pas dans la liste : ", domain)
+                        else :
+                            sku_array[str(result[0]).strip()] = result[1]
+                else :
+                    print("Ce domaine n'est pas dans la liste : ", domain)
     except Exception as e:
         print('The run has been canceled or crashed :', e)
         
