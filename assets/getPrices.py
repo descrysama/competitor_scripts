@@ -33,34 +33,34 @@ from classes.zanphone import Zanphone
 from classes.ifixit import Ifixit
 
 binding_array = {
-    'www.tout-pour-phone.com': 'tout_pour_phone',
-    'store.ifixit.fr': 'ifixit',
-    'www.gsm55.com': 'gsm55',
-    'www.brico-phone.com': 'brico_phone',
-    'www.yodoit.com': 'yodoit',
-    'www.macway.com': 'macway',
-    'www.sosav.fr': 'sosav',
-    'www.lapommediscount.com': 'lapommediscount',
-    'www.all4iphone.fr': 'all4iphone',
-    'www.best-price-market.com' : 'best_price_market',
-    'www.compo-phone.com': 'compo_phone',
-    'cpix.fr': 'cpix',
-    'www.ebay.fr': 'ebay',
-    'ecrans-telephone.com' : 'ecrans_telephone',
-    'www.empetel.net' : 'empetel',
-    'global-stock.fr' : 'global_stock',
-    'www.hightechplace.com' : 'hightechplace',
-    'ibuy.fr': 'ibuy',
-    'empetel.net': 'empetel',
-    'icasse.fr': 'icasse',
-    'www.kabiloo.fr': 'kabiloo',
-    'lcdstore.fr': 'lcdstore',
-    'www.mobile24.fr': 'mobile24',
-    'www.phonexpert78.com' : 'phonexpert78',
-    'www.piecetelephone.fr' : 'piecetelephone',
-    'www.planetemobile.fr': 'planetemobile',
-    'www.world-itech.com': 'world_itech',
-    'zanphone.com' : 'zanphone'
+    "www.tout-pour-phone.com": "tout_pour_phone",
+    "store.ifixit.fr": "ifixit",
+    "www.gsm55.com": "gsm55",
+    "www.brico-phone.com": "brico_phone",
+    "www.yodoit.com": "yodoit",
+    "www.macway.com": "macway",
+    "www.sosav.fr": "sosav",
+    "www.lapommediscount.com": "lapommediscount",
+    "www.all4iphone.fr": "all4iphone",
+    "www.best-price-market.com": "best_price_market",
+    "www.compo-phone.com": "compo_phone",
+    "cpix.fr": "cpix",
+    "www.ebay.fr": "ebay",
+    "ecrans-telephone.com": "ecrans_telephone",
+    "www.empetel.net": "empetel",
+    "global-stock.fr": "global_stock",
+    "www.hightechplace.com": "hightechplace",
+    "ibuy.fr": "ibuy",
+    "empetel.net": "empetel",
+    "icasse.fr": "icasse",
+    "www.kabiloo.fr": "kabiloo",
+    "lcdstore.fr": "lcdstore",
+    "www.mobile24.fr": "mobile24",
+    "www.phonexpert78.com": "phonexpert78",
+    "www.piecetelephone.fr": "piecetelephone",
+    "www.planetemobile.fr": "planetemobile",
+    "www.world-itech.com": "world_itech",
+    "zanphone.com": "zanphone",
 }
 
 tout_pour_phone = toutPourPhone()
@@ -91,6 +91,7 @@ world_itech = World_itech()
 zanphone = Zanphone()
 planetemobile = PlaneteMobile()
 
+
 def checkAllReferences():
     # Item fetch from API
     items = fetch_items()
@@ -99,8 +100,10 @@ def checkAllReferences():
     try:
         # Split items into 8 parts
         chunk_size = len(items) // 8
-        item_chunks = [items[i:i+chunk_size] for i in range(0, len(items), chunk_size)]
-        
+        item_chunks = [
+            items[i : i + chunk_size] for i in range(0, len(items), chunk_size)
+        ]
+
         with ThreadPoolExecutor() as executor:
             # Process each item chunk concurrently
             futures = []
@@ -113,20 +116,23 @@ def checkAllReferences():
                 result = future.result()
                 sku_array.update(result)
     except Exception as e:
-        print('The run has been canceled or crashed:', e)
+        print("The run has been canceled or crashed:", e)
 
     return sku_array
+
 
 def process_chunk(chunk):
     sku_array = {}
     for index, item in enumerate(chunk[::-1]):
-        if index < 3:
-            print(index + 1, '/', len(chunk))
-            for index_link, link in enumerate(item['urls']):
-                print('Link', index + 1, ':', index_link, '/', len(item['urls']))
-                domain = urlparse(link['url']).netloc
+        if index < 2:
+            print(index + 1, "/", len(chunk))
+            for index_link, link in enumerate(item["urls"]):
+                print("Link", index + 1, ":", index_link, "/", len(item["urls"]))
+                domain = urlparse(link["url"]).netloc
                 if domain in binding_array:
-                    result = globals()[binding_array[domain]].getData(link['url'], item['name'])
+                    result = globals()[binding_array[domain]].getData(
+                        link["url"], item["name"]
+                    )
                     if result:
                         sku = str(result[0]).strip()
                         if sku in sku_array:
@@ -137,5 +143,5 @@ def process_chunk(chunk):
                             sku_array[sku] = result[1]
                 else:
                     print("Ce domaine n'est pas dans la liste:", domain)
-    
+
     return sku_array
