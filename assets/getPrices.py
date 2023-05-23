@@ -1,5 +1,6 @@
 from urllib.parse import urlparse
 from fetch_data import fetch_items
+from concurrent.futures import ThreadPoolExecutor
 from assets.webinit_ import initBrowser
 
 ## Classes des sites
@@ -90,28 +91,50 @@ world_itech = World_itech()
 zanphone = Zanphone()
 planetemobile = PlaneteMobile()
 
-def checkAllReferences() :
-    ## Item fetch à partir de l'API (la meme que sur le site http://79.137.87.52:5000/sku/get)
+def checkAllReferences():
+    # Item fetch from API
     items = fetch_items()
     sku_array = {}
+
     try:
-        for index, item in enumerate(items[::-1]) :
-            print(index + 1, ' / ', len(items))
-            for index_link, link in enumerate(item['urls']): 
-                print('Link', index + 1, ':', index_link ,'/ ', len(item['urls']))
-                domain = urlparse(link['url']).netloc
-                if domain in binding_array :
-                    result = globals()[binding_array[domain]].getData(link['url'], item['name'])
-                    if result :
-                        if str(result[0]).strip() in str(sku_array).strip() :
-                            oldvalue = sku_array[str(result[0]).strip()]
-                            if oldvalue > result[1] : 
-                                sku_array[str(result[0]).strip()] = result[1]
-                        else :
-                            sku_array[str(result[0]).strip()] = result[1]
-                else :
-                    print("Ce domaine n'est pas dans la liste : ", domain)
-    except Exception as e:
-        print('The run has been canceled or crashed :', e)
+        # Split items into 8 parts
+        chunk_size = len(items) // 8
+        item_chunks = [items[i:i+chunk_size] for i in range(0, len(items), chunk_size)]
         
+        with ThreadPoolExecutor() as executor:
+            # Process each item chunk concurrently
+            futures = []
+            for chunk in item_chunks:
+                future = executor.submit(process_chunk, chunk)
+                futures.append(future)
+
+            # Wait for all threads to complete
+            for future in futures:
+                result = future.result()
+                sku_array.update(result)
+    except Exception as e:
+        print('The run has been canceled or crashed:', e)
+
+    return sku_array
+
+def process_chunk(chunk):
+    sku_array = {}
+    for index, item in enumerate(chunk[::-1]):
+        print(index + 1, '/', len(chunk))
+        for index_link, link in enumerate(item['urls']):
+            print('Link', index + 1, ':', index_link, '/', len(item['urls']))
+            domain = urlparse(link['url']).netloc
+            if domain in binding_array:
+                result = globals()[binding_array[domain]].getData(link['url'], item['name'])
+                if result:
+                    sku = str(result[0]).strip()
+                    if sku in sku_array:
+                        old_value = sku_array[sku]
+                        if old_value > result[1]:
+                            sku_array[sku] = result[1]
+                    else:
+                        sku_array[sku] = result[1]
+            else:
+                print("Ce domaine n'est pas dans la liste:", domain)
+    
     return sku_array
