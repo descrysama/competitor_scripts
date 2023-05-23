@@ -99,7 +99,7 @@ def checkAllReferences():
 
     try:
         # Split items into 8 parts
-        chunk_size = len(items) // 8
+        chunk_size = len(items) // 6
         item_chunks = [
             items[i : i + chunk_size] for i in range(0, len(items), chunk_size)
         ]
@@ -145,23 +145,3 @@ def process_chunk(chunk):
                     print("Ce domaine n'est pas dans la liste:", domain)
 
     return sku_array
-
-[
-    ["3000000057452", 10.9],
-    ["3000000038475", 7.9],
-    ["3000000039069", 2.9],
-    ["3000000039052", 2.9],
-    ["3000000114070", 1.616],
-    ["3000000032206", 98.87],
-    ["3000000057483", 26.771999999999995],
-    ["3000000057292", 41.768],
-    ["3000000057476", 26.771999999999995],
-    ["3000000057087", 5.99],
-    ["3000000038598", 10.9],
-    ["IP11PM-HOLED", 67.86],
-    ["3000000032213", 143.9],
-    ["A11PM-SIMVEN", 1.9],
-    ["IP11PMV-CC", 33.12],
-    ["IP11PM-CCO", 32.43],
-    ["3000000057308", 26.771999999999995],
-]
