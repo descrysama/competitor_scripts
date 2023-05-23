@@ -12,7 +12,6 @@ class World_itech():
             soup = BeautifulSoup(html_content, "html.parser")
             price_element = soup.select_one('span[id="our_price_display"]')
             price = price_element.get("content").replace('€', '').replace(',', '.').strip()
-            print([str(name).strip(), float(price)])
             return [str(name).strip(), float(price)]
         except Exception as e:
             return print('Erreur :', e)

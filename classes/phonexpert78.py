@@ -12,7 +12,6 @@ class Phonexpert78():
             soup = BeautifulSoup(html_content, "html.parser")
             price_element = soup.select_one('span[class="PBSalesPrice"]')
             price = price_element.get_text().replace('€', '').replace(',', '.').strip()
-            print([str(name).strip(), float(price)])
             return [str(name).strip(), float(price)]
         except Exception as e:
             return print('Erreur :', e)

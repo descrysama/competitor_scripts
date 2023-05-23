@@ -95,7 +95,7 @@ planetemobile = PlaneteMobile()
 def checkAllReferences():
     # Item fetch from API
     items = fetch_items()
-    sku_array = {}
+    sku_array = []
 
     try:
         # Split items into 8 parts
@@ -114,7 +114,9 @@ def checkAllReferences():
             # Wait for all threads to complete
             for future in futures:
                 result = future.result()
-                sku_array.update(result)
+                for single_result in result:
+                    sku_array.append([single_result, result[single_result]])
+
     except Exception as e:
         print("The run has been canceled or crashed:", e)
 
@@ -124,7 +126,7 @@ def checkAllReferences():
 def process_chunk(chunk):
     sku_array = {}
     for index, item in enumerate(chunk[::-1]):
-        if index < 2 :
+        if index < 4:
             print(index + 1, "/", len(chunk))
             for index_link, link in enumerate(item["urls"]):
                 print("Link", index + 1, ":", index_link, "/", len(item["urls"]))

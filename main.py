@@ -10,5 +10,5 @@ lowest_price = checkAllReferences() ## format : {"PP0290" : '6,56',  'IP13-ECSOF
 final_output = fetchFinalOutput() ## format : {"PP0290" : '6,56',  'IP13-ECSOFT', '108,50'} les deux ont le même format oui
 
 final_checked_prices = checkPriceMargin(lowest_price, final_output)
-print(final_checked_prices)
 editFinalOutput(final_checked_prices)
+

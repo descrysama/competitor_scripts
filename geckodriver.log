@@ -3482,3 +3482,959 @@ Exiting due to channel error.
 A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1684852785761	geckodriver	INFO	Listening on 127.0.0.1:62089
+1684852786280	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileKLEKT3"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684852786892	Marionette	INFO	Marionette enabled
+1684852787113	Marionette	INFO	Listening on port 62105
+Read port: 62105
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:62090
+1684852787276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62090/devtools/browser/c46d5643-a213-4515-aa7e-e1693082c861
+1684852788466	geckodriver	INFO	Listening on 127.0.0.1:62116
+1684852788981	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileAZ34v7"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684852789271	Marionette	INFO	Marionette enabled
+1684852789413	Marionette	INFO	Listening on port 62136
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:62117
+Read port: 62136
+1684852789600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62117/devtools/browser/0acc2cb5-9d59-48a7-941b-4fb996180d00
+1684852790311	geckodriver	INFO	Listening on 127.0.0.1:62145
+1684852790812	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileh1LNXB"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684852791088	Marionette	INFO	Marionette enabled
+1684852791233	Marionette	INFO	Listening on port 62167
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:62146
+Read port: 62167
+1684852791422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62146/devtools/browser/7464b4b7-f355-4b7c-b181-1d8f348a2864
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1684852884998	geckodriver	INFO	Listening on 127.0.0.1:62830
+1684852885507	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilefxYYaU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684852885873	Marionette	INFO	Marionette enabled
+1684852886119	Marionette	INFO	Listening on port 62844
+Read port: 62844
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:62831
+1684852886233	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62831/devtools/browser/32f6ca07-e3bb-4fb6-9e35-bc746484e051
+1684852887339	geckodriver	INFO	Listening on 127.0.0.1:62855
+1684852887854	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileW9w0JS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684852888151	Marionette	INFO	Marionette enabled
+1684852888299	Marionette	INFO	Listening on port 62873
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:62856
+Read port: 62873
+1684852888484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62856/devtools/browser/5133651c-5db0-48fb-a5cf-1390c74b5c15
+1684852889238	geckodriver	INFO	Listening on 127.0.0.1:62891
+1684852889742	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileavdeJU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684852890018	Marionette	INFO	Marionette enabled
+1684852890165	Marionette	INFO	Listening on port 62909
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:62892
+Read port: 62909
+1684852890354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62892/devtools/browser/c1f7d16f-8984-4004-8f2a-bd66ec3525ca
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 0 failed.
+(error: https://sdk.beeketing.com/js/beeketing.0.41fa4b0af8d6bfceac2f.js)
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684853013546	geckodriver	INFO	Listening on 127.0.0.1:63703
+1684853014052	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilejJrayN"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853014393	Marionette	INFO	Marionette enabled
+1684853014625	Marionette	INFO	Listening on port 63713
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 63713
+WebDriver BiDi listening on ws://127.0.0.1:63704
+1684853014727	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63704/devtools/browser/572f69bc-08aa-4c13-8b20-1c164e23d777
+1684853015788	geckodriver	INFO	Listening on 127.0.0.1:63724
+1684853016296	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileUkSYJ9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853016592	Marionette	INFO	Marionette enabled
+1684853016740	Marionette	INFO	Listening on port 63742
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:63725
+Read port: 63742
+1684853016931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63725/devtools/browser/a2fdc948-bee9-477e-91bd-5c99b3944d9d
+1684853017760	geckodriver	INFO	Listening on 127.0.0.1:63760
+1684853018268	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilel6h7QI"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853018686	Marionette	INFO	Marionette enabled
+1684853018827	Marionette	INFO	Listening on port 63779
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:63761
+Read port: 63779
+1684853019010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63761/devtools/browser/eec8c4a2-165a-4d2f-8564-2713fa315a13
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+1684853025794	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684853218618	geckodriver	INFO	Listening on 127.0.0.1:64920
+1684853219130	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilenBHEH1"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853219558	Marionette	INFO	Marionette enabled
+1684853219860	Marionette	INFO	Listening on port 64934
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:64921
+Read port: 64934
+1684853220035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:64921/devtools/browser/d9e08ada-bdc5-4f83-abcb-0ff38c5247eb
+1684853221155	geckodriver	INFO	Listening on 127.0.0.1:64946
+1684853221662	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileY10VxG"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853221970	Marionette	INFO	Marionette enabled
+1684853222128	Marionette	INFO	Listening on port 64966
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 64966
+WebDriver BiDi listening on ws://127.0.0.1:64947
+1684853222224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:64947/devtools/browser/3caed6c3-45d2-458e-9ced-1c9a806ea09a
+1684853223379	geckodriver	INFO	Listening on 127.0.0.1:64983
+1684853223888	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofile9UDKUo"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853224203	Marionette	INFO	Marionette enabled
+1684853224371	Marionette	INFO	Listening on port 65003
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 65003
+WebDriver BiDi listening on ws://127.0.0.1:64984
+1684853224488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:64984/devtools/browser/e2aee39d-88b2-473f-a5c6-0f00a1549f87
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684853286520	geckodriver	INFO	Listening on 127.0.0.1:49184
+1684853287031	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileuAqgwn"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853287709	Marionette	INFO	Marionette enabled
+1684853288070	Marionette	INFO	Listening on port 49198
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 49198
+WebDriver BiDi listening on ws://127.0.0.1:49185
+1684853288267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49185/devtools/browser/55fd23c5-225b-4f89-ae1b-9f6b9c58b169
+1684853289787	geckodriver	INFO	Listening on 127.0.0.1:49215
+1684853290308	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilezPuRc1"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853290654	Marionette	INFO	Marionette enabled
+1684853290987	Marionette	INFO	Listening on port 49240
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 49240
+WebDriver BiDi listening on ws://127.0.0.1:49216
+1684853291126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49216/devtools/browser/d8fe89ef-1467-49f0-8f23-52c9c0170f2b
+1684853292536	geckodriver	INFO	Listening on 127.0.0.1:49266
+1684853293037	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileYighjp"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853293473	Marionette	INFO	Marionette enabled
+1684853293629	Marionette	INFO	Listening on port 49289
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 49289
+WebDriver BiDi listening on ws://127.0.0.1:49267
+1684853293719	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49267/devtools/browser/e1be5015-12a5-4947-92e2-29d43283891f
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1684853455658	geckodriver	INFO	Listening on 127.0.0.1:50322
+1684853456177	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileUbPN4e"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853456614	Marionette	INFO	Marionette enabled
+1684853456889	Marionette	INFO	Listening on port 50328
+Read port: 50328
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:50323
+1684853457026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50323/devtools/browser/bca708a6-6e99-42c8-a3ba-d77f1c332a6e
+1684853457918	geckodriver	INFO	Listening on 127.0.0.1:50336
+1684853458423	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilegDD1pF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853458696	Marionette	INFO	Marionette enabled
+1684853458840	Marionette	INFO	Listening on port 50349
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:50337
+Read port: 50349
+1684853459033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50337/devtools/browser/d49ff1d2-5d8e-4675-b818-a5b29c15ef56
+1684853459986	geckodriver	INFO	Listening on 127.0.0.1:50364
+1684853460494	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileJAXlNH"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853460787	Marionette	INFO	Marionette enabled
+1684853460938	Marionette	INFO	Listening on port 50380
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:50365
+Read port: 50380
+1684853461130	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50365/devtools/browser/eede6d83-1176-4e71-862b-43f66a77a465
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+1684853776459	geckodriver	INFO	Listening on 127.0.0.1:51035
+1684853776971	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileArLfVz"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853777482	Marionette	INFO	Marionette enabled
+1684853777794	Marionette	INFO	Listening on port 51041
+Read port: 51041
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:51036
+1684853777927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51036/devtools/browser/01d56bf5-7364-4bad-807a-7e040dac9830
+1684853779198	geckodriver	INFO	Listening on 127.0.0.1:51047
+1684853779710	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilecvR3cO"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853780010	Marionette	INFO	Marionette enabled
+1684853780156	Marionette	INFO	Listening on port 51057
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 51057
+WebDriver BiDi listening on ws://127.0.0.1:51048
+1684853780274	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51048/devtools/browser/48c68e65-bf2c-4a16-9da2-1fb0d187c89f
+1684853781385	geckodriver	INFO	Listening on 127.0.0.1:51075
+1684853781898	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileEWSPN1"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853782196	Marionette	INFO	Marionette enabled
+1684853782347	Marionette	INFO	Listening on port 51091
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:51076
+Read port: 51091
+1684853782539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51076/devtools/browser/6469eed9-2858-4246-a3b6-c7f1ab08a135
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684853830614	geckodriver	INFO	Listening on 127.0.0.1:51402
+1684853831127	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileRWLb02"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853831610	Marionette	INFO	Marionette enabled
+1684853831882	Marionette	INFO	Listening on port 51408
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 51408
+WebDriver BiDi listening on ws://127.0.0.1:51403
+1684853832029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51403/devtools/browser/aa83c54f-02f3-49b4-a200-b9ffdda3ffe8
+1684853833280	geckodriver	INFO	Listening on 127.0.0.1:51415
+1684853833795	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileiaL4iO"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853834155	Marionette	INFO	Marionette enabled
+1684853834317	Marionette	INFO	Listening on port 51438
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:51416
+Read port: 51438
+1684853834559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51416/devtools/browser/45dc4cda-f38c-4770-884a-16e5d77250c1
+1684853835651	geckodriver	INFO	Listening on 127.0.0.1:51448
+1684853836160	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofile9JbpIM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853836497	Marionette	INFO	Marionette enabled
+1684853836643	Marionette	INFO	Listening on port 51464
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 51464
+WebDriver BiDi listening on ws://127.0.0.1:51449
+1684853836717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51449/devtools/browser/49075279-50af-4663-9629-7b74247da635
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 142 failed.
+(error: https://sdk.beeketing.com/js/beeketing.142.a5108606e31d364dbaf7.js)
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684853983127	geckodriver	INFO	Listening on 127.0.0.1:51935
+1684853983635	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileQKPIFE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853984137	Marionette	INFO	Marionette enabled
+1684853984441	Marionette	INFO	Listening on port 51941
+Read port: 51941
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:51936
+1684853984571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51936/devtools/browser/77801d31-5708-4edb-97ad-0cc4562953d4
+1684853986274	geckodriver	INFO	Listening on 127.0.0.1:51950
+1684853986784	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileqah2XE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853987159	Marionette	INFO	Marionette enabled
+1684853987340	Marionette	INFO	Listening on port 51970
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:51951
+Read port: 51970
+1684853987489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51951/devtools/browser/0a8b6c02-a050-460e-bbd4-9fa208b271cd
+1684853988459	geckodriver	INFO	Listening on 127.0.0.1:51977
+1684853988969	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileXrGqjV"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684853989330	Marionette	INFO	Marionette enabled
+1684853989475	Marionette	INFO	Listening on port 51992
+Read port: 51992
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:51978
+1684853989553	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51978/devtools/browser/96e6a9fd-cfdf-4dc6-93d7-674efb474ce2
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684854116710	geckodriver	INFO	Listening on 127.0.0.1:52431
+1684854117220	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileD3Werr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684854117740	Marionette	INFO	Marionette enabled
+1684854118033	Marionette	INFO	Listening on port 52438
+Read port: 52438
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:52432
+1684854118204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52432/devtools/browser/23da66ce-8926-4558-a8bc-435d067f7899
+1684854119415	geckodriver	INFO	Listening on 127.0.0.1:52445
+1684854119927	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofile0VE8FS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684854120236	Marionette	INFO	Marionette enabled
+1684854120391	Marionette	INFO	Listening on port 52459
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 52459
+WebDriver BiDi listening on ws://127.0.0.1:52446
+1684854120481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52446/devtools/browser/c875cf93-282c-4bce-8e9e-df15e9506fae
+1684854121687	geckodriver	INFO	Listening on 127.0.0.1:52473
+1684854122193	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofile9GgBSY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684854122488	Marionette	INFO	Marionette enabled
+1684854122641	Marionette	INFO	Listening on port 52487
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:52474
+Read port: 52487
+1684854122820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52474/devtools/browser/8f1f7cba-9929-47a4-abea-2c39104514f7
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+1684854740102	geckodriver	INFO	Listening on 127.0.0.1:53005
+1684854740615	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilea1K56o"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684854741126	Marionette	INFO	Marionette enabled
+1684854741449	Marionette	INFO	Listening on port 53011
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53006
+Read port: 53011
+1684854741704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53006/devtools/browser/230c0c29-42e5-4819-9c98-d19a6ea0f396
+1684854742986	geckodriver	INFO	Listening on 127.0.0.1:53018
+1684854743496	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileMd5AGf"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684854743872	Marionette	INFO	Marionette enabled
+1684854744024	Marionette	INFO	Listening on port 53035
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53019
+Read port: 53035
+1684854744222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53019/devtools/browser/a862c9a2-d669-4210-9962-3f813d4f4ce8
+1684854745356	geckodriver	INFO	Listening on 127.0.0.1:53046
+1684854745863	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilenmPtJW"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684854746247	Marionette	INFO	Marionette enabled
+1684854746413	Marionette	INFO	Listening on port 53062
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53047
+Read port: 53062
+1684854746608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53047/devtools/browser/bdf07ad5-4414-4095-b99c-038d0ce7737e
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+1684855229875	geckodriver	INFO	Listening on 127.0.0.1:53561
+1684855230395	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofile1NTrRu"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855230960	Marionette	INFO	Marionette enabled
+1684855231315	Marionette	INFO	Listening on port 53567
+Read port: 53567
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53562
+1684855231520	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1684855241140	geckodriver	INFO	Listening on 127.0.0.1:53581
+1684855241651	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofile2U45Bv"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855242031	Marionette	INFO	Marionette enabled
+1684855242210	Marionette	INFO	Listening on port 53587
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53582
+Read port: 53587
+1684855242374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53582/devtools/browser/a5beff73-445c-4f96-ab12-08a14ad737d5
+1684855243642	geckodriver	INFO	Listening on 127.0.0.1:53594
+1684855244147	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileT6blJK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855244554	Marionette	INFO	Marionette enabled
+1684855244810	Marionette	INFO	Listening on port 53612
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53595
+Read port: 53612
+1684855244956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53595/devtools/browser/36b40257-87da-40df-acf8-31522c802ae3
+1684855245947	geckodriver	INFO	Listening on 127.0.0.1:53622
+1684855246457	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileVSQUsB"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855246843	Marionette	INFO	Marionette enabled
+1684855247100	Marionette	INFO	Listening on port 53641
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53623
+Read port: 53641
+1684855247272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53623/devtools/browser/3c175418-a705-4fb2-bcaa-5fe3d9f5737e
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 0 failed.
+(error: https://sdk.beeketing.com/js/beeketing.0.41fa4b0af8d6bfceac2f.js)
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1684855259135	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855259136	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855259136	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855259136	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684855261325	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855261325	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855261326	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855261327	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684855337699	geckodriver	INFO	Listening on 127.0.0.1:54066
+1684855338204	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilexL90oi"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855338717	Marionette	INFO	Marionette enabled
+1684855339016	Marionette	INFO	Listening on port 54072
+Read port: 54072
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:54067
+1684855339161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54067/devtools/browser/8fa5f5f4-09a5-4700-94bd-30feb94af7c1
+1684855340544	geckodriver	INFO	Listening on 127.0.0.1:54079
+1684855341053	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilenyDTVp"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855341436	Marionette	INFO	Marionette enabled
+1684855341588	Marionette	INFO	Listening on port 54098
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:54080
+Read port: 54098
+1684855341805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54080/devtools/browser/1dab263f-acb2-48dd-a558-acc2ec2d2c49
+1684855343070	geckodriver	INFO	Listening on 127.0.0.1:54107
+1684855343581	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileZixTHV"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855343937	Marionette	INFO	Marionette enabled
+1684855344086	Marionette	INFO	Listening on port 54125
+Read port: 54125
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:54108
+1684855344173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54108/devtools/browser/cebadee3-e9dd-424b-b38c-fa890d33b384
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+1684855359399	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855359399	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855359400	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855359400	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855445103	geckodriver	INFO	Listening on 127.0.0.1:54554
+1684855445617	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileUNw5EF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855446262	Marionette	INFO	Marionette enabled
+1684855446624	Marionette	INFO	Listening on port 54560
+Read port: 54560
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:54555
+1684855446822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54555/devtools/browser/d8a92a63-19ce-4b5e-946a-af7d4d87893f
+1684855448284	geckodriver	INFO	Listening on 127.0.0.1:54567
+1684855448794	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofile3eElIv"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855449178	Marionette	INFO	Marionette enabled
+1684855449333	Marionette	INFO	Listening on port 54585
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:54568
+Read port: 54585
+1684855449546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54568/devtools/browser/d53e359b-ac41-4eb3-8bd0-a6ea4a66aa2c
+1684855450525	geckodriver	INFO	Listening on 127.0.0.1:54595
+1684855451035	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileCR7iVl"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855451409	Marionette	INFO	Marionette enabled
+1684855451677	Marionette	INFO	Listening on port 54613
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:54596
+Read port: 54613
+1684855451878	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54596/devtools/browser/9bdb0598-57e4-4d92-8928-edbda4ad61c9
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+1684855461545	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 0 failed.
+(error: https://sdk.beeketing.com/js/beeketing.0.41fa4b0af8d6bfceac2f.js)
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 149 failed.
+(error: https://sdk.beeketing.com/js/beeketing.149.75b4d91d424f0a1c5031.js)
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 2 failed.
+(error: https://sdk.beeketing.com/js/beeketing.2.3aab4f57ef969e00a765.js)
+[Child 8927, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (ContentMeta, Meta:SetPageInfo) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://www.gsm55.com/ref/59087-connecteur-de-charge-lightning-noir.html, line 43: ChunkLoadError: Loading chunk 9348 failed.
+(error: https://skin2.gsm55.com/prod/73/build/js/footer.a08a293f66868157d59c.js)
+1684855652921	geckodriver	INFO	Listening on 127.0.0.1:55104
+1684855653431	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilexhEWFE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855653964	Marionette	INFO	Marionette enabled
+1684855654251	Marionette	INFO	Listening on port 55110
+Read port: 55110
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:55105
+1684855654429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55105/devtools/browser/78616492-b56b-4b26-8126-d514df68131e
+1684855655798	geckodriver	INFO	Listening on 127.0.0.1:55119
+1684855656301	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofile5FB8vp"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855656672	Marionette	INFO	Marionette enabled
+1684855656834	Marionette	INFO	Listening on port 55130
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:55120
+Read port: 55130
+1684855657040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55120/devtools/browser/dd8abe1a-355b-4137-bd26-67b96b99463a
+1684855658404	geckodriver	INFO	Listening on 127.0.0.1:55144
+1684855658911	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileNCcfiJ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684855659283	Marionette	INFO	Marionette enabled
+1684855659455	Marionette	INFO	Listening on port 55161
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:55145
+Read port: 55161
+1684855659645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55145/devtools/browser/7a9322a2-28ae-404f-835d-20cd1ae67a45
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+[Child 9194, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (ContentMeta, Meta:SetPageInfo) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1684855675339	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855675340	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855675341	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1684855675341	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+[Child 9178, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (ContentMeta, Meta:SetPageInfo) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1684856200057	geckodriver	INFO	Listening on 127.0.0.1:55677
+1684856200565	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileo2aCPI"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684856201328	Marionette	INFO	Marionette enabled
+1684856201788	Marionette	INFO	Listening on port 55683
+Read port: 55683
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:55678
+1684856202069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55678/devtools/browser/2801993e-2e8b-4f50-ba17-8e0a138ed699
+1684856204875	geckodriver	INFO	Listening on 127.0.0.1:55693
+1684856205383	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofileot0tbp"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684856205914	Marionette	INFO	Marionette enabled
+1684856206173	Marionette	INFO	Listening on port 55713
+Read port: 55713
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:55694
+1684856206359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55694/devtools/browser/e3e229f9-bf78-47d0-a9f6-0114a171df33
+1684856207913	geckodriver	INFO	Listening on 127.0.0.1:55720
+1684856208417	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/xd/kr7zkljd1p34b8c7sz4prnjr0000gn/T/rust_mozprofilev16xqZ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684856208942	Marionette	INFO	Marionette enabled
+1684856209193	Marionette	INFO	Listening on port 55741
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 55741
+WebDriver BiDi listening on ws://127.0.0.1:55721
+1684856209319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55721/devtools/browser/b7c4bed1-c212-4585-a933-2bcb079b44b0
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 58: Error: Can't find profile directory.
+JavaScript error: https://lcdstore.fr/wp-content/cache/autoptimize/js/autoptimize_single_5229687de8465637eb72b9c741dd9862.js?ver=6.5.0, line 1: ReferenceError: js_porto_vars is not defined
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 2 failed.
+(error: https://sdk.beeketing.com/js/beeketing.2.3aab4f57ef969e00a765.js)
+JavaScript error: https://sdk.beeketing.com/js/beeketing.js?20230523, line 1: Error: Loading chunk 2 failed.
+(error: https://sdk.beeketing.com/js/beeketing.2.3aab4f57ef969e00a765.js)
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+[Child 9673, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (ContentMeta, Meta:SetPageInfo) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
